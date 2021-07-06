@@ -118,7 +118,7 @@ nav ul li a{
 
 .card {
     width: 343px;
-    height: 380px;
+    height: 390px;
     padding: 20px;
     margin: 50px;
     text-align: center;
@@ -130,4 +130,21 @@ nav ul li a{
 .card-image img {
     width: 242px;
     height: 164pxpx;
+}
+.food-price{
+    margin-bottom: 50px;
+}
+.food-card{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.card-food{
+    width: 1200px;
+    height: 226;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
 }
