@@ -76,15 +76,17 @@ nav ul li a{
 }
     /* <!-- HEADER SECTION START HARE --> */
 
+   
+    /* <!-- ABOUT SECTION START HARE --> */
+.about-area{
+        width: 100%;
+        height: 80vh;
+        background-image: url("images/Frame\ 58.jpg");
+        background-repeat: no-repeat;
+}
 .container{
     display: flex;
     align-items: center;
-}
-.about-area{
-    width: 100%;
-    height: 80vh;
-    background-image: url("images/Frame\ 58.jpg");
-    background-repeat: no-repeat;
 }
 #about-image img{
     width: 328px;
@@ -104,6 +106,9 @@ nav ul li a{
     font-weight: 400;
     color: #18191F;
 }
+/* <!-- ABOUT SECTION START HARE --> */
+
+/* <!-- MY REPICIES SECTION START HARE --> */
 .card-container {
     display: flex;
     align-items: center;
@@ -140,6 +145,9 @@ nav ul li a{
     width: 242px;
     height: 164pxpx;
 }
+/* <!-- MY REPICIES SECTION END HARE --> */
+
+/* <!-- SOCIAL SECTION START HARE --> */
 .social-section{
     margin-bottom: 100px;
 }
@@ -160,7 +168,7 @@ nav ul li a{
 }
 
 .testimonial-area{
-    margin-top:50px;
+    margin-bottom:100px;
 }
 .testimonial-container{
     display: flex;
@@ -180,5 +188,21 @@ nav ul li a{
     width: 150px;
     height: 150px;
 }
+/* <!-- SOCIAL SECTION START HARE --> */
 
-
+/* FOOTER SECTION START HARE */
+footer{
+    text-align: center;
+    position: absolute;
+    height: 200px;
+    left: 0%;
+    right: 0%;
+    color: white;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+.social-icon{
+    display: inline;
+    align-items: center;
+    padding: 20px;
+}
+/* FOOTER SECTION START HARE */
