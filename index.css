@@ -18,6 +18,9 @@ a{
 ul{
     list-style: none;
 }
+h2 {
+    font-size: 40px;
+}
 nav ul{
     display: flex;
 }
@@ -28,8 +31,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     color: #000;
-    /* background: white;
-    box-shadow: 5px 10px 30px; */
+    
 }
 .logo{
     color: #000;
@@ -64,6 +66,7 @@ nav ul li a{
 .half-width h4{
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 40px;
 }
 .container{
     display: flex;
@@ -73,4 +76,22 @@ nav ul li a{
     width: 50%;
     margin-left: 5%;
     padding-left: 2%;
+}
+.about-area{
+    width: 100%;
+    background-image: url("images/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+}
+
+.half-width h2{
+    color: #707070;
+}
+.half-width p {
+    font-size: 22px;
+    line-height: 35px;
+    margin-right: 44px;
+    text-align: justify;
+    margin-bottom: 50px;
+    font-weight: 400;
+    color: #18191F;
 }
