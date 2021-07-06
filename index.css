@@ -7,11 +7,6 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.header-area{
-    width: 100%;
-    height: 100vh;
-    background: #e5e5e5;
-}
 a{
     text-decoration: none;
 }
@@ -20,6 +15,12 @@ ul{
 }
 h2 {
     font-size: 40px;
+}
+/* <!-- HEADER SECTION START HARE --> */
+.header-area{
+    width: 100%;
+    height: 100vh;
+    background: #e5e5e5;
 }
 nav ul{
     display: flex;
@@ -53,7 +54,12 @@ nav ul li a{
     color: white;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
-    border-radius: 100px;
+    border-radius: 80px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
@@ -68,26 +74,29 @@ nav ul li a{
     line-height: 30px;
     margin-bottom: 40px;
 }
+    /* <!-- HEADER SECTION START HARE --> */
+
 .container{
     display: flex;
     align-items: center;
 }
-.half-width{
-    width: 50%;
-    margin-left: 5%;
-    padding-left: 2%;
-}
 .about-area{
     width: 100%;
+    height: 80vh;
     background-image: url("images/Frame\ 58.jpg");
     background-repeat: no-repeat;
+}
+#about-image img{
+    width: 328px;
+    height: 532px;
+    margin-top: 100px;
 }
 
 .half-width h2{
     color: #707070;
 }
 .half-width p {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 35px;
     margin-right: 44px;
     text-align: justify;
@@ -131,20 +140,45 @@ nav ul li a{
     width: 242px;
     height: 164pxpx;
 }
-.food-price{
-    margin-bottom: 50px;
+.social-section{
+    margin-bottom: 100px;
 }
-.food-card{
+.social-container{
+    width: 1239px;
+    height: 226px;
+    margin-left: 145px;
     display: flex;
     align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-.card-food{
-    width: 1200px;
-    height: 226;
+.social-card{
     padding: 20px;
-    margin: 50px;
     text-align: center;
+    margin: 0px auto;
 }
+
+.testimonial-area{
+    margin-top:50px;
+}
+.testimonial-container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 332px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.card2{
+    width: 373px;
+    height: 332px;
+    text-align: center;
+    padding: 20px;
+}
+#testimonial-image img{
+    width: 150px;
+    height: 150px;
+}
+
+
